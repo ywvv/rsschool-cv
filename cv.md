@@ -16,3 +16,22 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 - **Git/GitHub**
 - **BEM**
 - **Avocode/Photoshop/Figma**
+### Code Example
+```
+function updateLight(current) {
+  if (current == "green"){
+    current = "yellow";
+    return current;
+  }
+  if (current == "yellow"){
+    current = "red";
+    return current;
+  }
+  if (current == "red"){
+    current = "green";
+    return current;
+  }
+}
+```
+### English
+Pre-Intermediate - **A2**
