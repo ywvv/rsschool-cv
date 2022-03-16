@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/cupertino.min.css" />
+  </head>
+
+  <body>
+    <a class="arrow-up" id="toTop">
+      <img src="img/up-arrow.svg" alt="up" />
+    </a>
+    <header class="header">
+      <div class="header__inner">
+        <nav class="nav">
+          <input class="nav__toggle" id="nav__toggle" type="checkbox" />
+          <label class="nav__btn" for="nav__toggle">
+            <span></span>
+          </label>
+          <ul class="nav__list">
+            <li class="nav__list-item"><a href="#about">About myself</a></li>
+            <li class="nav__list-item"><a href="#skills">Skills</a></li>
+            <li class="nav__list-item"><a href="#education">Education</a></li>
+            <li class="nav__list-item"><a href="#english">English</a></li>
+            <li class="nav__list-item"><a href="#code">Code example</a></li>
+            <li class="nav__list-item"><a href="#project">Example Project</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts">
+          <li><a href="mailto:ywvvvw@gmail.com"><img class="logo" src="img/mail.svg" alt="Mail"/></a></li>
+          <li><a href="tel:+380990067460"><img class="logo" src="img/phone.svg" alt="Phone"/></a></li>
+          <li><a href="https://t.me/ywvvw" target="_blank"><img class="logo" src="img/telegram.svg" alt="Telegram"/></a></li>
+        </ul>
+      </div>
+      <img class="avatar" src="img/avatar.jpg" alt="Avatar"/>
+      <h1 class="name__title"><span class="name__title_bold">Vlad </span>Horban</h1>
+    </header>
+    <main class="main">
+      <section class="about">
+          <h2 class="title" id="about">About Myself</h2>
+          <p class="about__text text">
+              I consider the ability to work in a team and possession of leadership
+              qualities to be my strengths. I always strive to conquer new heights.
+              One of them is the IT sphere, namely the profession of a front-end
+              developer. And I know I will succeed, because I am on the right track.
+          </p>
+      </section>
+      <div class="about__row">
+        <section class="skills">
+            <h2 class="title" id="skills">Skills</h2>
+            <ul class="text">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SASS/SCSS</li>
+                <li>Git/GitHub</li>
+                <li>Avocode</li>
+                <li>Photoshop</li>
+                <li>Figma</li>
+            </ul>
+        </section>
+        <section class="education">
+            <h2 class="title" id="education">Education</h2>
+            <p class="text">
+                National University of Bioresources and Natural Resources Use of
+                Ukraine
+            </p>
+        </section>
+        <section class="eng">
+            <h2 class="title" id="english">English</h2>
+            <p class="text">Pre-Intermediate</p>
+        </section>
+      </div>
+      <section class="code" id="code">
+          <h2 class="title">Code Example</h2>
+          <pre class="code__example">
+                  <code>
+function updateLight(current) {
+  if (current == "green"){
+    return "yellow";
+  }
+  if (current == "yellow"){
+    return "red";
+  }
+  if (current == "red"){
+    return "green";
+  }
+}
+                  </code>
+              </pre>
+      </section>
+      <section class="project" id="project">
+            <h2 class="title">Example Project</h2>
+          <div class="project__inner">
+            <div>
+              <h3 class="project__title">
+                  Space Tourism <br />
+                  <span class="project__subtitle">Ticket Booking</span>
+              </h3>
+              <p class="project__description">HTML | CSS | JS | jQuery</p>
+              <a href="https://space-tour1sm.netlify.app/" target="_blank">
+                <img class="project__img" src="img/project.jpg" alt="project" />
+              </a>
+            </div>
+            <div>
+              <h3 class="project__title">
+                  Safari Touristic <br />
+                  <span class="project__subtitle">Ticket Booking</span>
+              </h3>
+              <p class="project__description">HTML | CSS | JS | jQuery</p>
+              <a href="https://safari-ywvv.netlify.app/" target="_blank">
+                <img class="project__img" src="img/project-2.jpg" alt="project" />
+              </a>
+            </div>
+          </div>
+      </section>
+  </main>
+  <footer class="footer">
+    <a href="https://github.com/ywvv/" target="_blank">
+        <img class="github-logo logo" src="img/github.svg" alt="logo" />
+    </a>
+    <p class="year">2021</p>
+    <a href="https://rs.school/js/" target="_blank">
+        <img class="rss-logo logo" src="img/rs-school.svg" alt="logo" />
+    </a>
+  </footer>
+  <script src="js/toTop.js"></script>
+  <script src="js/highlight.min.js"></script>
+  </body>
+</html>
